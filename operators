@@ -1,0 +1,34 @@
+# Do not modify these lines
+__winc_id__ = 'd0d3cdcefbb54bc980f443c04ab3a9eb'
+__human_name__ = 'print'
+
+# Add your code after this line
+#Welk land is groter qua oppervlakte? Spanje of Zwitserland
+spain_total_area = 505307
+switzerland_total_area = 41277
+print(spain_total_area > switzerland_total_area)
+#Let op!! Als je bij het ene getal de komma gebruikt, moet je dit ook bij de andere doen.
+#Is de meest voorkomende taal in Zwitserland hetzelfde als in Spanje?
+most_spoken_language_in_Switzerland = 'Swiss_German'
+most_spoken_language_in_Spain = 'Castillian_Spanish'
+print(most_spoken_language_in_Spain == most_spoken_language_in_Switzerland)
+#Is de meest voorkomende religie in Zwitserland hetzelfde als in Spanje?
+most_prevalent_religion_in_Switzerland = 'Roman Catholic'
+most_prevalent_religion_in_Spain = 'Roman Catholic'
+print(most_prevalent_religion_in_Spain == most_prevalent_religion_in_Switzerland)
+# Is de lengte van cde naam van Spanjes hoofdstad ongelijk aan die van Zwitserland?
+Spains_capital = 'Madrid'
+Switzerland_capital = 'Bern'
+print(len(Spains_capital) != len(Switzerland_capital))
+#Is het BNP in Zwitserland groter dan die van Spanje?
+Switzerland_GDP = 731502000000
+Spain_GDP = 1393351000000
+print(Switzerland_GDP > Spain_GDP)
+#De toename van de bevolking in Spanje en Zwitserland is minder dan 1%
+population_growth_in_Switzerland = 65
+population_growth_in_Spain = -3
+print(((population_growth_in_Switzerland) and (population_growth_in_Spain)) < 100)
+#Minstens één land heeft een bevolking van meer dan 10 miljoen
+population_count_Switzerland = 8453550
+population_count_Spain = 47260584
+print(((population_count_Switzerland) or (population_count_Spain)) > 10000000)
